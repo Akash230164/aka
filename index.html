@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual DJ Night Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <!-- Page Indicator -->
+        <div class="page-indicator">
+            <span id="pageIndicator">Page 1 of 3</span>
+        </div>
+
+        <!-- Page 1: Front Cover -->
+        <div class="page active" id="page1">
+            <div class="ticket-cover">
+                <h1 class="glow">VIP DJ Night Pass for Amber</h1>
+                <p><strong>Date & Time:</strong> Saturday, 12 PM</p>
+                <p><strong>Location:</strong> Meet – Your Device</p>
+                <p><strong>Access Code:</strong> 3105-25-09-11-31-05</p>
+                              
+                <p>Get ready to dance the night away, Amber! Here’s your exclusive pass to an unforgettable night.</p>
+                <button onclick="nextPage()">Next</button>
+            </div>
+        </div>
+
+        <!-- Page 2: Event Details -->
+        <div class="page" id="page2">
+            <h2>Highlights of the Night</h2>
+            <p>Amber, here’s a sneak peek at what’s in store! 🎧 We’ll go on a musical journey through some of your favorites.</p>
+            <p>🎶 Featured Tracks: Expect some EDM energy, classic hits, and a few surprises just for you.</p>
+            <p>Plus, there’s a special playlist we’ll reveal on the night, filled with songs that remind me of you.</p>
+            <button onclick="nextPage()">Next</button>
+        </div>
+
+        <!-- Page 3: RSVP Page -->
+        <div class="page" id="page3">
+            <h2>Are You Ready to Dance?</h2>
+            <p>Amber, this night won’t be the same without you. Can’t wait to share this music and these moments with you. Let me know if you’ll join the party!</p>
+            <p><strong>Notice:</strong> Do not forget this code 
+                as it might lead to severe consequences , u might be asked to send few of your cute goofy selfies in which u would be posing in some of the wierdest ways possible
+            <br>pleazzzzzz bhj dena </p>  
+            <button class="rsvp-button" onclick="confirmRSVP()">Confirm Attendance</button>
+        </div>
+    </div>
+
+    <!-- Thank You Message Overlay -->
+    <div class="thank-you-message" id="thankYouMessage">
+        <p>Thank you, Amber! Can’t wait to see you at the DJ night! 🎶</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
