@@ -47,7 +47,7 @@ body {
 
 /* Page 1 - Front Cover */
 #page1 {
-  background-image: url('images/front.jpg'); /* Replace with your image URL */
+  background-image: url('front.jpg'); /* Replace with your image URL */
 }
 
 .ticket-cover h1 {
@@ -78,7 +78,7 @@ body {
 
 /* Page 2 - Event Details */
 #page2 {
-  background-image: url('images/dj2.jpg'); /* Replace with your image URL */
+  background-image: url('dj2.jpg'); /* Replace with your image URL */
 }
 
 button {
@@ -105,7 +105,7 @@ button:active {
 
 /* Page 3 - RSVP Page */
 #page3 {
-  background-image: url('images/dj3.jpg'); /* Replace with your image URL */
+  background-image: url('dj3.jpg'); /* Replace with your image URL */
 }
 
 /* RSVP Button Animation */
